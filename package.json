@@ -4,17 +4,28 @@
   "description": "css animations for React This is",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src",
+    "lint:fix": "prettier-eslint $PWD/'**/*.js' --write"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/femialaka/react-css-anim.git"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "css"
+  ],
   "author": "Olafemi Alaka",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/femialaka/react-css-anim/issues"
   },
-  "homepage": "https://github.com/femialaka/react-css-anim#readme"
+  "homepage": "https://github.com/femialaka/react-css-anim#readme",
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-cli": "^1.1.1",
+    "eslint-plugin-react": "^7.21.3",
+    "prettier-eslint": "^11.0.0",
+    "prettier-eslint-cli": "^5.0.0"
+  }
 }
